@@ -3,7 +3,7 @@ import TextField from '@mui/material/TextField';
 
 
 interface TextInputProps {
-    value: string ;
+    value: string;
     label?: string;
     onBlurHandler: (value: string) => void;
 }
@@ -44,7 +44,6 @@ export const TextInput: React.FC<TextInputProps> = ({
     useEffect(() => {
         setInput(value);
     }, [value]);
-
 
 
     return (
